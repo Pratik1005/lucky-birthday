@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Dancing Script', cursive;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background: url('./gifts.jpg') no-repeat center top/cover;
+}
+
+.alert {
+	font-family: 'Times New Roman';
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fa-times {
+	cursor: pointer;
+}
+
+.container {
+	background-color: rgba(251, 251, 251, 0.8);
+	width: 500px;
+	margin: 30px 0 30px;
+	padding: 0 30px 30px;
+	border-radius: 10px;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 28px;
+	text-align: center;
+}
+
+label {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+input {
+	margin: auto;
+	display: block;
+	padding: 10px;
+}
+
+button {
+	font-family: inherit;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: #0D6EFD;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	display: block;
+	margin: 10px auto 20px;
+}
+
+div#output {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.fa-github, .fa-linkedin, .fa-twitter, .fa-globe{
+	color: #333;
+	font-size: 20px;
+}
